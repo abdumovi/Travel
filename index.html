@@ -1,15 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
+  <title>Travel</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/column.css">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  
+  <header id="site-header">
+    <div class="container">
+      <div class="header-all-contents flex align between">
+        <div class="site-logos">
+          <a href="#">
+            <img src="./img/logo.svg" alt="logo">
+          </a>
+        </div>
+        <nav class="navigation">
+          <ul class="nav-list flex">
+            <li class="nav-list"><a class="nav-link" href="#">Destination</a></li>
+            <li class="nav-list"><a class="nav-link" href="#">Offer</a></li>
+            <li class="nav-list"><a class="nav-link" href="#">Tour</a></li>
+            <li class="nav-list"><a class="nav-link" href="#">Blog</a></li>
+          </ul>
+        </nav>
+        <div class="header-buttons flex align">
+          <div class="header-user">
+            <a class="nav-link" href="#">
+              <i class='bx bx-user'></i>
+              My Account
+            </a>
+          </div>
+          <button class="header-search"><i class='bx bx-search'></i></button>
+        </div>
+      </div>
+
+      <div class="hero-contents">
+        <div class="hero flex">
+          <div class="hero-des">
+            <h2 class="hero-title">It’s Time To Explore The World</h2>
+            <a class="btn hero-btn" href="#">Plan Your Trip</a>
+          </div>
+        </div>
+        <div class="hero-form flex">
+          <div class="hero-chevrons flex align">
+            <a class="chevron-left" href="#"><i class='bx bx-chevron-left'></i></a>
+            <a class="chevron-right" href="#"><i class='bx bx-chevron-right'></i></a>
+            <p class="chevron-num">03</p>
+          </div>
+          <form method="post">
+            <div class="formcontents flex between">
+              <div class="options">
+                <p class="options-title">Destinations</p>
+                <ul class="optiton-list">
+                  <li class="potion-activ otions-item"><a class="select-item" href="#">Arab Egypt</a> <i
+                      class='bx bx-chevron-down'></i></li>
+                  <li class="select-i potion-pasiv-on otions-item"><a class="select-item" href="#">Eran</a></li>
+                  <li class="select-i potion-pasiv otions-item"><a class="select-item" href="#">Qatar</a></li>
+                </ul>
+              </div>
+              <div class="options">
+                <p class="options-title">Check In</p>
+                <ul class="optiton-list">
+                  <li class="potion-activ otions-item"><time datetime="2021-09-19">01 Feb, 2021</time><i
+                      class='bx bx-calendar'></i></li>
+                </ul>
+              </div>
+              <div class="options">
+                <p class="options-title">Price Range</p>
+                <ul class="optiton-list">
+                  <li class="potion-activ otions-item">$500 - $10,0000 <p>$</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="form-btn">
+                <button class="btn form-btn" type="submit">Discover Now</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="works">
+      <div class="min-contener">
+        <ul class="works-list flex between">
+          <li class="works-item work-img1">
+            <h4 class="works-title">Choose Destination</h4>
+            <p class="works-text regular">Lorem Ipsum is simply dummy text of the printing setting</p>
+          </li>
+          <li class="works-item work-img2">
+            <h4 class="works-title">Explore The Place</h4>
+            <p class="works-text regular">Lorem Ipsum is simply dummy text of the printing setting</p>
+          </li>
+          <li class="works-item work-img3">
+            <h4 class="works-title">Start Your Journey</h4>
+            <p class="works-text regular">Lorem Ipsum is simply dummy text of the printing setting</p>
+          </li>
+          <li class="works-item work-img4">
+            <h4 class="works-title">Start Your Journey</h4>
+            <p class="works-text regular">Lorem Ipsum is simply dummy text of the printing setting</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="top-travel">
+      <div class="container">
+        <div class="top-travel-content flex">
+          <div class="top-travel-des">
+            <h3 class="top-travel-title exbold">Top <span>Destinations</span> In The World</h3>
+            <p class="top-travel-text regular">It is a long established fact that a reader will be the distracted by the
+              readable content of a page when looking at its layout from it.</p>
+            <a class="btn" href="#">Discover More</a>
+          </div>
+          <div class="top-travel-imgs flex">
+            <div class="top-travel-item">
+              <img class="top-travel-img" width="330" height="400" src="./img/top-img1.jpg" alt="top-travel-imgs">
+              <span class="travel-img-span">Cuba City</span>
+            </div>
+            <div class="top-travel-item">
+              <img class="top-travel-img" width="330" height="400" src="./img/top-img2.jpg" alt="top-travel-imgs">
+              <span class="travel-img-span">Paris</span>
+            </div>
+            <div class="top-travel-item">
+              <img class="top-travel-img" width="330" height="400" src="./img/top-img3.jpg" alt="top-travel-imgs">
+              <span class="travel-img-span">Japan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="total">
+      <div class="min-contener">
+        <div class="total-all-content flex align">
+          <div class="total-des">
+            <img class="total-img" src="./img/total-img.png" alt="total-img">
+          </div>
+          <div class="total-content">
+            <h2 class="total-title exbold">We Offering In Total 793 Tours Out The World</h2>
+            <ul class="total-list">
+              <li class="totlal-item total-imj1">
+                Best Travel Guide Always For Your Services
+                <p class="total-text regular">Travel has helped us to understandsa the meaning of life and it has helped
+                  us become better people. Each time we travel, we see the world with new eyes. Travel has helped us to
+                  understand the meaning of life</p>
+              </li>
+              <li class="totlal-item totlal-item-border total-imj2">
+                World Class Services Provide For You
+              </li>
+              <li class="totlal-item total-margin total-imj3">
+                24/7 Strong Customer Support
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="destination">
+      <div class="min-contener">
+        <h2 class="destination-title tex exbold">Choose Your Destination</h2>
+        <ul class="destination-list flex between">
+          <li class="destination-item">
+            <img src="./img/des1.jpg" alt="destination-img" width="450" height="535">
+            <div class="destanation-content flex align">
+              <div>
+                <h4 class="destination-item-title">Santorini, Oia Greece</h4>
+                <span class="des-span">$2000</span>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <span class="des-span-tex">5k Reviews</span>
+              </div>
+              <a class="des-btn" href="#">+</a>
+            </div>
+          </li>
+          <li class="destination-item destination-img">
+            <img class="destination-img-decor" src="./img/des2.jpg" alt="destination-img" width="450" height="535">
+            <div class="destanation-content flex align card-positsion">
+              <div>
+                <h4 class="destination-item-title">Santorini, Oia Greece</h4>
+                <span class="des-span">$2000</span>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <span class="des-span-tex">5k Reviews</span>
+              </div>
+              <a class="des-btn" href="#">+</a>
+            </div>
+          </li>
+          <li class="destination-item">
+            <img src="./img/des3.jpg" alt="destination-img" width="450" height="535">
+            <div class="destanation-content flex align">
+              <div>
+                <h4 class="destination-item-title">Santorini, Oia Greece</h4>
+                <span class="des-span">$2000</span>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <span class="des-span-tex">5k Reviews</span>
+              </div>
+              <a class="des-btn" href="#">+</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="min-container">
+        <h2 class="about-title exbold tex margin">What Our Happy Customers Say About Us</h2>
+        <div class="about-content margin">
+          <img class="about-mini-img1 about-mini-img" src="./img/mini-img1.png" alt="mini-ing">
+          <img class="about-mini-img2 about-mini-img" src="./img/mini-img2.png" alt="mini-ing">
+          <img class="about-mini-img3 about-mini-img" src="./img/mini-img3.png" alt="mini-ing">
+          <img class="about-mini-img4 about-mini-img" src="./img/mini-img4.png" alt="mini-ing">
+          <div class="about-item flex align margin">
+            <div class="about-img">
+              <img src="./img/shamim.png" alt="shamim">
+            </div>
+            <div class="about-des">
+              <p class="shamim-name">Md Shamim Hossain</p>
+              <p class="about-job">UI/UX Designer</p>
+            </div>
+          </div>
+          <p class="about-text tex margin regular">Jetrips Hotel is an excellent choice for anybody for considering
+            hosting their events there. Top levela facilities and excellent staff make for a brilliantad environment
+            within which to operate. The hotel is meticulous in its planning.</p>
+          <img class="about-mini-img5 about-mini-img" src="./img/mini-img5.png" alt="mini-ing">
+          <img class="about-mini-img6 about-mini-img" src="./img/mini-img6.png" alt="mini-ing">
+          <img class="about-mini-img7 about-mini-img" src="./img/mini-img7.png" alt="mini-ing">
+        </div>
+      </div>
+    </section>
+
+    <section id="apps">
+      <div class="container">
+        <div class="app-content">
+          <div class="app-des">
+            <h3 class="app-title exbold">Download Now Travel Community Apps</h3>
+            <ul class="app-list flex">
+              <li class="app-item">
+                <a href="#"><img src="./img/googleplay.jpg" alt="app-store"></a>
+              </li>
+              <li class="app-item">
+                <a href="#"><img src="./img/applestore.jpg" alt="app-store"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="app-img">
+            <img class="img-app" src="./img/app-img.png" alt="app-img">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="foter-all">
+    <div class="min-contener">
+      <div class="foter-contents flex between">
+        <div class="foter-des">
+          <a href="#">
+            <img src="./img/logo.svg" alt="logo">
+            <p class="regular foter-text">You can dream, create, design, and buildsa the most wonderful place.</p>
+          </a>
+          <ul class="foter-socials">
+            <li class="foter-socials-item phone">
+              <a class="foter-socials-link" href="tel:0123456987">+0123 456 987</a>
+              <a class="foter-socials-link" href="tel:0123456987">+0123 456 987</a>
+            </li>
+            <li class="foter-socials-item mesage">
+              <a class="foter-socials-link" href="mailto:yourmailaddress@gmail.com">yourmailaddress@gmail.com</a>
+            </li>
+            <li class="foter-socials-item locate">
+              <a class="foter-socials-link" href="https://www.yourwebsitename.com" target="_blank">www.yourwebsitename.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="foter-des">
+          <h4 class="foter-title">Quick Links</h4>
+          <ul class="foter-list">
+            <li class="foter-item"><a class="foter-link" href="#">About Us</a></li>
+            <li class="foter-item"><a class="foter-link" href="#">Destinations</a></li>
+            <li class="foter-item"><a class="foter-link" href="#">Latest Blog</a></li>
+            <li class="foter-item"><a class="foter-link" href="#">Our Team</a></li>
+            <li class="foter-item"><a class="foter-link" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="foter-des">
+          <h4 class="foter-title">Support</h4>
+          <ul class="foter-list">
+            <li class="foter-item"><a class="foter-link" href="#">Customer Support</a></li>
+            <li class="foter-item"><a class="foter-link" href="#">Privacy & Policy</a></li>
+            <li class="foter-item"><a class="foter-link" href="#">Terms & Condition</a></li>
+            <li class="foter-item"><a class="foter-link" href="#">Forum</a></li>
+            <li class="foter-item"><a class="foter-link" href="#">Tour Guid</a></li>
+          </ul>
+        </div>
+        <div class="foter-des">
+          <h4 class="foter-title">Newsletter</h4>
+          <form class="foter-form" method="get">
+            <label><input class="foter-input" type="text" ></label> <br>
+            <button class="btn foter-btn" type="submit">Subscribe Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="last-content">
+      <p class="last-text regular tex">Copyright @2020 Ravel. Designed By <span> Md Shamim Hossain</span></p>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
