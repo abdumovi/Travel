@@ -105,6 +105,18 @@ p{
   color: #2C2C2C;
   
 }
+.input-data{
+  border: none;
+  color: #FF715B;
+  cursor: pointer;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  width: 212px;
+  
+}
 .header-search{
   border: none;
   background-color: inherit;
